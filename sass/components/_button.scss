@@ -36,6 +36,17 @@
 
         }
     }
+    &--green{
+        background-color:$color-primary;
+        color:$color-white;
+        text-transform:lowercase;
+
+        &::after{
+         background-color: $color-primary;
+
+        }
+    }
+    
     &--animated{
         animation: moveInUp .5s ease-in .75;
         animation-fill-mode: backwards;
